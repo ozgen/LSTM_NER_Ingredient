@@ -6,6 +6,8 @@ First of all, we use keras in order to implemment
 
  * In order to generate precise dataset for evaluation we developed a website which repository is [here][recipePosMean]
  * Inspiration for this project comes from ny-times working. You can reach from [here][nytimes].
+ 
+ NOTE: Dataset will be added soon.
 
 
 
