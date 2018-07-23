@@ -2,7 +2,7 @@
 
 # Ingredient Name Entity Recognition With Bidirectional LSTM Model
 
-First of all, we use keras in order to implemment
+First of all, we use keras in order to implement
 
  * Inspiration for this project comes from ny-times working. You can reach from [here][nytimes].
  
