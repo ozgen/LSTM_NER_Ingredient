@@ -3,7 +3,7 @@ import decimal
 import re
 import string
 import pandas as pd
-from numpy import basestring
+import numpy
 
 
 def tokenize(s):
@@ -396,7 +396,7 @@ def matchUp(token, ingredientRow):
     decimalToken = parseNumbers(token)
 
     for key, val in ingredientRow.iteritems():
-        if isinstance(val, basestring):
+        if isinstance(val, numpy.basestring):
 
             for n, vt in enumerate(tokenize(val)):
                 if normalizeToken(vt) == token:
