@@ -396,7 +396,7 @@ def matchUp(token, ingredientRow):
     decimalToken = parseNumbers(token)
 
     for key, val in ingredientRow.iteritems():
-        if isinstance(val, numpy.basestring):
+        if isinstance(val, numpy.str):
 
             for n, vt in enumerate(tokenize(val)):
                 if normalizeToken(vt) == token:

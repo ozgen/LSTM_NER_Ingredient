@@ -103,7 +103,6 @@ def predictIngredientTag(ingredient):
     X = [[word2idx[w[0]] for w in s] for s in arr]
 
     max_len = max([len(x) for x in X])
-    print("maxle")
     x_testData = pad_sequences(sequences=[[word2idx.get(w, 0) for w in tokens]],
                                padding="post", value=0, maxlen=max_len)
 
@@ -117,3 +116,5 @@ def predictIngredientTag(ingredient):
     return retArr
 
 #print(predictIngredientTag("1 tomato"))
+
+#trainAndSaveModel()
